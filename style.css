@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imgs/fundoTodolist.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.caixa-maior {
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    opacity: 0.9;
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Imperial Script", cursive;
+    font-weight: 750;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.input-tarefa {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    opacity: 0.9;
+    width: 250px;
+    max-width: 450px;
+    margin-left: 25px;
+    font-size: 15px;
+    outline: none;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.input-tarefa:focus {
+    border: 1px solid rgb(235, 108, 129);
+    box-shadow: 0 0 5px rgb(235, 108, 129);
+}
+
+.botao {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(235, 108, 129);
+    cursor: pointer;
+    color: white;
+    opacity: 1.0;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.botao:hover {
+    box-shadow: 0 0 5px rgb(236, 35, 69);
+    font-size: 16px;
+}
+
+.botao:active {
+    background-color: rgb(238, 19, 56);
+}
+
+.lista {
+    list-style-type: none;
+    padding: 21px;
+}
+
+.icone {
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.icone:active{
+    transform: translateY(2px);
+} 
+
+.item-lista {
+    padding: 10px;
+    border-bottom: 1px solid rgb(235, 108, 129);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px  5px 5px rgba(235, 108, 129, 0.5);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.icone-lixeira{
+    width: 20px; 
+    padding: 3px;
+}
+.botao-remover{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 30px;
+}
+.botao-remover:active{
+    transform: translateY(2px);
+}
+
+.texto-lista{
+    font-size: 17px;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.concluida{
+    background-color:rgb(235, 108, 129);
+    text-decoration: line-through;
+}
