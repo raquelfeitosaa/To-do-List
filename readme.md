@@ -29,6 +29,6 @@ Durante o desenvolvimento, trabalhei e aprimorei:
 <img src="imgs/Gravando 2025-08-12 220548.gif" style="widht: 150px">
 
 ## 🔗 Como Acessar
-Você pode visualizar o projeto clicando [aqui](COLOQUE_AQUI_SEU_LINK).
+Você pode visualizar o projeto clicando [aqui](https://raquelfeitosaa.github.io/To-do-List/).
 
 ---
